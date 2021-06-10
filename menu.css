@@ -7,12 +7,12 @@
 }
 
 body{
-    background-color: rgb(92, 62, 62);
+    background-color: rgb(0, 0, 0);
 }
 .navegacion{
     width: 1000px;
     margin: 30px auto;
-    background-color: rgb(255, 0, 0) ;
+    background-color: rgb(95, 0, 247) ;
 }
 
 .navegacion ul{
@@ -27,13 +27,13 @@ body{
 .menu > li > a{
     display: block;
     padding: 15px 20px;
-    color: #353535;
+    color: #000000;
     font-family: 'Open sans';
     text-decoration: none;
 }
 
 .menu li a:hover{
-     color: #ce7d35;
+     color: #ffffff;
      transition: all.3s;
 }
 
@@ -41,7 +41,7 @@ body{
 
 .submenu{
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(95, 0, 247);
     width: 400%;
     visibility: hidden;
     opacity: 0;
@@ -51,7 +51,7 @@ body{
 .submenu li a{
     display: block;
     padding: 15px;
-    color: rgb(0, 0, 0);
+    color: white;
     font-family: 'Opens sans';
     text-decoration: none;
 }
@@ -59,4 +59,17 @@ body{
 .menu li:hover .submenu{
    visibility: visible;
    opacity: 1;
+}
+
+.Biografia {
+    text-align:center;
+    color: white;
+    font-family: Arial, Helvetica, 'open sans';
+    font-size: 15px;
+    position: center;
+    
+}
+
+.text{
+    margin: 2.5%;
 }
