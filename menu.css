@@ -27,7 +27,7 @@ body{
 .menu > li > a{
     display: block;
     padding: 15px 20px;
-    color: #000000;
+    color: white;
     font-family: 'Open sans';
     text-decoration: none;
 }
